@@ -1,0 +1,1 @@
+g++    -std=c++11 -march=native -O3 -pthread  -O0 -Wall -g2 -ggdb   CMakeFiles/MyWebServer.dir/src/main.cpp.o CMakeFiles/MyWebServer.dir/include/http_conn.cpp.o  -o bin/MyWebServer  -L/home/ve620/webserver_heap_version_1.0/lib 
