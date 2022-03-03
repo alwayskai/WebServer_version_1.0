@@ -33,7 +33,7 @@ cd WebServer_version_1.0/bin
 ```
 
 ```
-2.用setsockopt( listenfd, SOL_SOCKET, SO_REUSEADDR, &reuse, sizeof( reuse ) )消除bind时"Address already in use"错误
+2. 用setsockopt( listenfd, SOL_SOCKET, SO_REUSEADDR, &reuse, sizeof( reuse ) )消除bind时"Address already in use"错误
 即设置SO_REUSEADDR 重用本地地址
 ```
 
@@ -50,11 +50,11 @@ cd WebServer_version_1.0/bin
 对任务队列中任务的调度采用先来先服务算法
 ```
 ```
-5.采用Proactor模式 工作线程仅仅负责业务逻辑
+5. 采用Proactor模式 工作线程仅仅负责业务逻辑
 ```
 
 ```
-6.实现了一个最小堆的定时器及时剔除超时请求
+6. 实现了一个最小堆的定时器及时剔除超时请求
 ```
 ### 性能
 用webbench压测工具
